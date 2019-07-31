@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<h1>신이 {{name}}을 만들 때</h1>
+<p>
+    <img src="{% static '3.png' %}">
+    <h3>{{result.0}}을(를) {{spoon.0}}방울 넣고</h3>
+</p>
+<p>
+    <img src="{% static '2.png' %}">
+    <h3>{{result.1}}을(를) {{spoon.1}}스푼 넣고</h3>
+</p>
+<p>
+    <img src="{% static '1.png' %}">
+    <h3>마지막으로 {{result.2}}을(를) 넣으러아러아러아ㅓ니ㅏ</h3>
+</p>
+<a href="{%url 'start'%}"> <button>다시하기</button> </a>
